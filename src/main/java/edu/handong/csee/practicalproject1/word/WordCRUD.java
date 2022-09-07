@@ -50,4 +50,20 @@ public class WordCRUD implements ICRUD{
     public void selectOne(int id) {
 
     }
+
+    /*
+    * --------------------------------
+1 * driveway 차고 진입로
+2 ** graceful 우아한
+--------------------------------
+*
+    * */
+    public void listAll() {
+        System.out.println("--------------------------------");
+        for(int i = 0; i < list.size(); i++) {
+            System.out.print((i+1) + " ");
+            System.out.println(list.get(i).toString());
+        }
+        System.out.println("--------------------------------");
+    }
 }

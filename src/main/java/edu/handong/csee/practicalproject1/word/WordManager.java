@@ -49,8 +49,8 @@ public class WordManager {
             }
             else if(menu == 1) {
                 // list
+                wordCRUD.listAll();
             }
-            System.out.println(menu);
         }
     }
 }
