@@ -1,0 +1,28 @@
+2022/09/13
+
+JSON format
+    Java Script Object Notation
+
+GSON
+
+stream
+    데이터 공간에 있는 내용을 차례대로 보여주는 방식
+
+    메모리에 데이터를 가지고 오는것 또는 내보내는 것 --> inputStream, outputStream
+
+    UTF8
+        ASCII code로 표현 가능한 것은 똑같이 하되 그 외의 것은 3byte로 한다
+
+Reader/Writer
+    문자 단위로(한 글자씩) 처리한다
+
+Rendering
+    image => bytecode
+
+        ex) vscode --> 이미지를 rendering 할 수 없다
+
+BufferedReader/BufferedWriter
+    --> 문자열 묶음으로 보내는 것
+        I/O change가 Reader/writer를 사용하면 오래 걸린다
+
+

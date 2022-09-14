@@ -25,7 +25,7 @@ public class WordCRUD implements ICRUD{
         String word = s.nextLine(); // next()만 했을 경우 enter가 남아 있어서 meaning은 skip하게 된다.
 
         System.out.print("뜻 입력 : ");
-        String meaning = s.nextLine(); // 공백 포함을 위
+        String meaning = s.nextLine(); // 공백 포함을 위함
 
         return new Word(0, level, word, meaning);
     }
