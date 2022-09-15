@@ -26,3 +26,6 @@ BufferedReader/BufferedWriter
         I/O change가 Reader/writer를 사용하면 오래 걸린다
 
 
+Things to Find:
+
+    .next()

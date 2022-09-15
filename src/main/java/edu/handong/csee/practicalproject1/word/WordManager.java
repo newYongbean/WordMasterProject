@@ -2,6 +2,10 @@ package edu.handong.csee.practicalproject1.word;
 
 import java.util.Scanner;
 
+
+/**
+ * This file contains the list of programs to run --> brings the wordCRUD class to use methods in it.
+ */
 public class WordManager {
     Scanner s = new Scanner(System.in);
     WordCRUD wordCRUD;
@@ -40,6 +44,7 @@ public class WordManager {
         return s.nextInt();
     }
     public void start() {
+        wordCRUD.loadFile();
         while(true) {
             int menu = selectMenu();
             if(menu == 0) {
@@ -48,11 +53,23 @@ public class WordManager {
             }
             if(menu == 4) {
                 // create
-                wordCRUD.addWord();
+                wordCRUD.addItem();
             }
-            else if(menu == 1) {
+            else if(menu == 1) { // view all the list
                 // list
                 wordCRUD.listAll();
+            }
+            else if(menu == 5) { // update
+                // list
+                wordCRUD.updateItem();
+            }
+            else if(menu == 6) { // delete
+                // list
+                wordCRUD.deleteItem();
+            }
+            else if(menu == 7) { // save file
+                // list
+                wordCRUD.saveFile();
             }
         }
     }
