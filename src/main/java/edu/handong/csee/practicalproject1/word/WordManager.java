@@ -59,16 +59,19 @@ public class WordManager {
                 // list
                 wordCRUD.listAll();
             }
+            else if(menu == 2) { // view the words according to the level
+                wordCRUD.searchLevel();
+            }
+            else if(menu == 3) { // view the words according to the level
+                wordCRUD.searchWord();
+            }
             else if(menu == 5) { // update
-                // list
                 wordCRUD.updateItem();
             }
             else if(menu == 6) { // delete
-                // list
                 wordCRUD.deleteItem();
             }
             else if(menu == 7) { // save file
-                // list
                 wordCRUD.saveFile();
             }
         }

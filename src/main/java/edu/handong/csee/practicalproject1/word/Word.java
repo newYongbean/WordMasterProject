@@ -61,4 +61,8 @@ public class Word {
         String str = String.format("%-3s", slevel) + String.format("%15s", word) + " " + meaning; // 왼쪽 3번째 정렬(level), 15칸을 가질 수 있는 단어
         return str;
     }
+
+    public String toFileString() {
+        return this.level + "|" + this.word + "|" + this.meaning;
+    }
 }
