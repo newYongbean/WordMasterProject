@@ -57,4 +57,4 @@
 <br> screenshot of restarted program(load file) and its list
 
 <br>
-<img src = "viewWords.png" width = 400> <img src = "viewWords2.png" width = 400>
+<img src = "startProgramAgain.png" width = 400><img src = "viewWords.png" width = 400><img src = "viewWords2.png" width = 400>
