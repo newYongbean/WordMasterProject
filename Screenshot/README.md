@@ -52,7 +52,7 @@
 <br> screenshot of file location and its info
 
 <br>
-<img src = "ileLocationWithName&data.png" width = 400>
+<img src = "fileLocationWithName&data.png" width = 400>
 
 <br> screenshot of restarted program(load file) and its list
 
