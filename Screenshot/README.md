@@ -49,12 +49,12 @@
 <br>
 <img src = "saveFile.png" width = 400>
 
-<br> screenshot of menu 7
+<br> screenshot of file location and its info
 
 <br>
-<img src = "saveFile.png" width = 400>
+<img src = "ileLocationWithName&data.png" width = 400>
 
-<br> screenshot of menu 7
+<br> screenshot of restarted program(load file) and its list
 
 <br>
-<img src = "saveFile.png" width = 400>
+<img src = "viewWords.png" width = 400> <img src = "viewWords2.png" width = 400>
