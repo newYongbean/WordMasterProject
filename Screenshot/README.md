@@ -23,8 +23,38 @@
 
 <br> Final Project Report <br>
 
-<br> screenshot of menu 0
+<br> screenshot of menu 2
 
 <br>
-<img src = "process-4.png" width = 700>
+<img src = "viewWordsWithLevel.png" width = 400>
 
+
+<br> screenshot of menu 3
+
+<br>
+<img src = "viewWordsWithLetter.png" width = 400>
+
+<br> screenshot of menu 5
+
+<br>
+<img src = "updateWord.png" width = 400>
+
+<br> screenshot of menu 6
+
+<br>
+<img src = "deleteWord.png" width = 400>
+
+<br> screenshot of menu 7
+
+<br>
+<img src = "saveFile.png" width = 400>
+
+<br> screenshot of menu 7
+
+<br>
+<img src = "saveFile.png" width = 400>
+
+<br> screenshot of menu 7
+
+<br>
+<img src = "saveFile.png" width = 400>
